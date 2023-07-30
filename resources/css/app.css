@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list_lang {
+    padding: 5px 20px;
+}
+
+.list_lang li {
+    text-align: end;
+    border-bottom: 1px solid #eee;
+}
+
+.list_lang li:last-child {
+    border: none;
+}
+
+.list_lang li a:hover {
+    color: black;
+}
+
+.list_lang li a {
+    font-size: 14px;
+    width: 100%;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.w-50px {
+    max-width: 50px !important;
+}
+
+.w-33 {
+    width: 33.333333%;
+}
+
+.float-right {
+    float: right;
+}
+
+*:disabled {
+    background-color: #eee;
+}
+
+table th {
+    white-space: nowrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+td>img {
+    margin: 0 auto;
+}
